@@ -2,6 +2,7 @@ package com.example.laboratorinis1;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -21,6 +22,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void onBtnMainClick(View view) {
         this.tvMain.setText("Paspausta");
+    }
+
+
+        public void Color(View view) {
+        tvMain.setTextColor(Color.rgb(12,500,50));
 
     }
 }
