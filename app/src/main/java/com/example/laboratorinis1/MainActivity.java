@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         public void Color(View view) {
-        tvMain.setTextColor(Color.rgb(12,240,50));
+        tvMain.setTextColor(Color.rgb(12,240,200));
 
     }
 }
